@@ -27,7 +27,6 @@ export default function Working(){
                     </div>
                     <div className="details">
                        
-                        Certainly! Here's a concise paragraph summarizing the Back-End Developer Internship at FOO:
                         During my internship at FOO as a Back-End Developer, I honed my skills in Java and Spring Boot development, focusing on building robust RESTful APIs. I gained practical experience in executing CRUD operations with JPA, implementing validation, error handling, and caching strategies. Collaborating closely with experienced developers, I integrated APIs to enhance project functionality and adapted to dynamic requirements. I managed asynchronous processing, conducted comprehensive testing, benchmarked services against Keycloak server, and successfully integrated with third-party applications, ensuring efficient performance and seamless integration.
 
                     </div>
