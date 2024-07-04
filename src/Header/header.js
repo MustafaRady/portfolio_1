@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Contact from '../Contact/contact';
 import Education from '../Education/education';
 import Heading from '../Heading/heading';

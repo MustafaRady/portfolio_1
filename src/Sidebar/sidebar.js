@@ -196,7 +196,7 @@ export default function Sidebar(){
                         return (
                             <div className='extraSkillGroup' key={index}>
                                 <div className='skillLogo'>
-                                    <img src={Add}/>
+                                    <img src={Add} alt=''/>
                                 </div>
                                 <div className='skillName' >
                                     {skill}

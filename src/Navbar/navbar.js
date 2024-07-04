@@ -5,7 +5,6 @@ import Services from "../assets/navbar/customer-service.png";
 import Education from "../assets/navbar/education.png";
 import Experience from "../assets/navbar/user-experience.png";
 import Contact from "../assets/navbar/call.png";
-import Menu from "../assets/navbar/menu.png";
 export default function Navbar() {
     const icons = [
         { src: Home, label: "Home" },
