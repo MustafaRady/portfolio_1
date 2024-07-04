@@ -55,7 +55,7 @@ export default function Working(){
                     </div>
                     <div className="details">
                        
-                    During my internship at Salem Group as a Front-End Developer, I gained valuable experience in transforming Figma designs into responsive web pages and developing cross-platform mobile applications using React Native. I collaborated effectively within the development team to optimize web application performance and seamlessly integrated APIs to enhance functionality and connectivity. Demonstrating proficiency in HTML, CSS, JavaScript, and adaptability to new technologies, I consistently met deadlines and delivered high-quality projects with a proactive approach.
+                    During my internship at Salem Group as a Front-End Developer, I gained valuable experience in transforming Figma designs into responsive web pages and developing cross-platform mobile applications using React and React Native. I collaborated effectively within the development team to optimize web application performance and seamlessly integrated APIs to enhance functionality and connectivity. Demonstrating proficiency in HTML, CSS, JavaScript, and adaptability to new technologies, I consistently met deadlines and delivered high-quality projects with a proactive approach.
                     </div>
                 </div>
             </div>
