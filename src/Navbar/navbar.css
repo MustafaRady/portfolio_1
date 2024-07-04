@@ -1,0 +1,73 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Use vh for viewport height */
+    background-color: white;
+    gap: 10px;
+    justify-content: center; /* Center the icons vertically */
+    align-items: center; /* Center the icons horizontally */
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative; /* Needed for the tooltip */
+}
+
+.iconContainer-Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative; 
+}
+
+.iconContainer-Menu img {
+    margin: auto;
+    width: 100%; /* Make the image fill the container */
+    padding: 10%;
+}
+
+
+
+
+.iconContainer img {
+    margin: auto;
+    border-radius: 50%;
+    width: 100%; /* Make the image fill the container */
+    padding: 10%;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.iconContainer:hover img , .iconContainer-Menu:hover img {
+    background-color: rgb(0, 191, 255);
+}
+
+.iconContainer:hover .tooltip {
+    opacity: 1; /* Show the tooltip on hover */
+    visibility: visible;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 100%; /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    white-space: nowrap; /* Prevent tooltip text from wrapping */
+    z-index: 1; /* Ensure the tooltip is above other elements */
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: auto;
+
+}
+
+.imageContainer{
+    width:60%;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.imageContainer img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.headingContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.headingContainer .name{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.socialMediaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.socialMediaContainer img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+hr{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.infoGroup{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding:3% 4%;
+}
+
+.infoName{
+    background-color: rgb(0, 191, 255);
+}
+
+
+.languagesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.languagesGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.languagesHeading{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.language-valueGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+
+.skill-bar {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 10px;
+    width: 100%;
+}
+
+.skill-level {
+background-color: rgb(0, 191, 255);
+height: 100%;
+}
+ 
+
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skillsGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skillsHeading{
+    ont-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill-valueGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+/* Extra skills  */
+
+.extraSkillsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.extraSkillsGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skillsHeading{
+    ont-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.extraSkillGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.skillLogo{
+    width: 30px;
+}
+
+.skillLogo img{
+    width: 100%;
+}
+
+.skillName{
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+
+/* Donwload CV */
+.downloadCv {
+    text-align: center;
+    margin: 20px;
+}
+
+.downloadCvButton {
+    background-color:  rgb(0, 191, 255);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.downloadCvButton:hover {
+    background-color: #0056b3;
+}

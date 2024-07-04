@@ -1,0 +1,40 @@
+.educationContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.educationTitle{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.educationSubtitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.educationDetails{
+    margin-top:20px;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.educationGroup{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.educationGroupTitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}

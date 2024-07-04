@@ -1,0 +1,52 @@
+.contactContainer {
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px; /* Add padding for spacing */
+  
+    /* Center align content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactTitle {
+    font-size: 1.5rem; /* Larger title font size */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  form {
+    width: 100%; /* Full width form */
+  }
+  
+  label {
+    margin-bottom: 8px; /* Space below each label */
+  }
+  
+  .contactInput {
+    width: 100%; /* Full width input fields */
+    padding: 1%; /* Padding for input fields */
+    margin-bottom: 15px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f1f0f6; /* Light gray background for input fields */
+  }
+  
+  textarea {
+    height: 150px; /* Set height for the textarea */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .contactSubmit {
+    background-color: rgb(0, 191, 255);; /* Blue submit button */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Button text size */
+  }
+  
+  .contactSubmit:hover {
+    background-color: rgb(0, 191, 255);; /* Darker blue on hover */
+  }
+  

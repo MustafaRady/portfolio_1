@@ -1,0 +1,50 @@
+.headerContainer{
+    display: flex;
+    gap: 20px;
+   
+}
+.sidebar{
+    background-color: rgb(255, 255, 255) !important;
+    width: 25%;
+    height: 100%;
+    padding-bottom: 2%;
+}
+
+
+
+.infoBody{
+    width: 80%;
+    background-color: #f1f0f6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar{
+    width:5%;
+    height:100
+}
+
+@media screen and (max-width: 1240px){
+    .navbar{
+        display: none;
+    }
+
+    .infoBody{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .sidebar{
+        display: none;
+    }
+    
+    .navbar{
+        display: none;
+    }
+
+    .infoBody{
+        width: 100%;
+    }
+}
