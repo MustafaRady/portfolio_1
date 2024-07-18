@@ -23,9 +23,9 @@ export default function Contact(){
 
     const sendMessage = () => {
         if (!validateForm()) return;
-
+        console.log("Message sent ")
         const data = {
-            service_id: 'service_ojjm9v9',
+            service_id: 'service_4vv1fd8',
             template_id: 'contact_form',
             user_id: '4ZMtm3Ul6TYvWSd6E',
             template_params: {
@@ -53,7 +53,7 @@ export default function Contact(){
             setEmail("");
             setMessage("");
         }).catch((err) => {
-            console.log(err);
+            console.log(err.message);
         });
     };
 
